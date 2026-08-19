@@ -13,7 +13,7 @@ describe('workshopRelicImages', () => {
 
   it('builds URLs without encoded spaces', () => {
     const url = workshopRelicImageUrl('warm_clothes')
-    expect(url).toBe('/relics/epic/Winter_is_Coming.webp')
+    expect(url).toBe('/tower-smith/relics/epic/Winter_is_Coming.webp')
     expect(url).not.toContain('%20')
   })
 
