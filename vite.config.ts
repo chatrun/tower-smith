@@ -11,6 +11,7 @@ export default defineConfig({
    * Keep pre-bundle cache out of the repo tree. Under OneDrive, `.vite/deps` often ends up as a
    * read-only reparse point and Vite fails with EPERM when it tries to `rmdir` before rebuild.
    */
+  base: '/tower-smith/',
   cacheDir: path.join(os.tmpdir(), 'vite-cache-tower_export'),
   server: {
     host: true,
