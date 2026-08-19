@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "name": "Attack Speed",
+      "path": "attack/attack-speed.json"
+    },
+    {
+      "name": "Attack Speed +",
+      "path": "enhancements/attack/attack-speed-plus.json"
+    },
+    {
+      "name": "Bounce Shot Chance",
+      "path": "attack/bounce-shot-chance.json"
+    },
+    {
+      "name": "Bounce Shot Range",
+      "path": "attack/bounce-shot-range.json"
+    },
+    {
+      "name": "Bounce Shot Targets",
+      "path": "attack/bounce-shot-targets.json"
+    },
+    {
+      "name": "Cash - Wave",
+      "path": "utility/cash-wave.json"
+    },
+    {
+      "name": "Cash Bonus",
+      "path": "utility/cash-bonus.json"
+    },
+    {
+      "name": "Cash Bonus +",
+      "path": "enhancements/utility/cash-bonus-plus.json"
+    },
+    {
+      "name": "Cells - Kill Bonus",
+      "path": "enhancements/utility/cells-kill-bonus.json"
+    },
+    {
+      "name": "Coin Bonus +",
+      "path": "enhancements/utility/coin-bonus-plus.json"
+    },
+    {
+      "name": "Coins - Kill Bonus",
+      "path": "utility/coins-kill-bonus.json"
+    },
+    {
+      "name": "Coins - Wave",
+      "path": "utility/coins-wave.json"
+    },
+    {
+      "name": "Critical Chance",
+      "path": "attack/critical-chance.json"
+    },
+    {
+      "name": "Critical Factor",
+      "path": "attack/critical-factor.json"
+    },
+    {
+      "name": "Critical Factor +",
+      "path": "enhancements/attack/critical-factor-plus.json"
+    },
+    {
+      "name": "Damage",
+      "path": "attack/damage.json"
+    },
+    {
+      "name": "Damage - Meter",
+      "path": "attack/damage-meter.json"
+    },
+    {
+      "name": "Damage - Meter +",
+      "path": "enhancements/attack/damage-meter-plus.json"
+    },
+    {
+      "name": "Damage +",
+      "path": "enhancements/attack/damage-plus.json"
+    },
+    {
+      "name": "Death Defy",
+      "path": "defense/death-defy.json"
+    },
+    {
+      "name": "Defense Absolute",
+      "path": "defense/defense-absolute.json"
+    },
+    {
+      "name": "Defense Absolute +",
+      "path": "enhancements/defense/defense-absolute-plus.json"
+    },
+    {
+      "name": "Defense Percent",
+      "path": "defense/defense-percent.json"
+    },
+    {
+      "name": "Enemy Attack Level Skip",
+      "path": "utility/enemy-attack-level-skip.json"
+    },
+    {
+      "name": "Enemy Health Level Skip",
+      "path": "utility/enemy-health-level-skip.json"
+    },
+    {
+      "name": "Enemy Level Skip +",
+      "path": "enhancements/utility/enemy-level-skip-plus.json"
+    },
+    {
+      "name": "Free Attack Upgrade",
+      "path": "utility/free-attack-upgrade.json"
+    },
+    {
+      "name": "Free Defense Upgrade",
+      "path": "utility/free-defense-upgrade.json"
+    },
+    {
+      "name": "Free Upgrades +",
+      "path": "enhancements/utility/free-upgrades-plus.json"
+    },
+    {
+      "name": "Free Utility Upgrade",
+      "path": "utility/free-utility-upgrade.json"
+    },
+    {
+      "name": "Health",
+      "path": "defense/health.json"
+    },
+    {
+      "name": "Health +",
+      "path": "enhancements/defense/health-plus.json"
+    },
+    {
+      "name": "Health Regen",
+      "path": "defense/health-regen.json"
+    },
+    {
+      "name": "Health Regen +",
+      "path": "enhancements/defense/health-regen-plus.json"
+    },
+    {
+      "name": "Interest - Wave",
+      "path": "utility/interest-wave.json"
+    },
+    {
+      "name": "Knockback Chance",
+      "path": "defense/knockback-chance.json"
+    },
+    {
+      "name": "Knockback Force",
+      "path": "defense/knockback-force.json"
+    },
+    {
+      "name": "Land Mine Chance",
+      "path": "defense/land-mine-chance.json"
+    },
+    {
+      "name": "Land Mine Damage",
+      "path": "defense/land-mine-damage.json"
+    },
+    {
+      "name": "Land Mine Damage +",
+      "path": "enhancements/defense/land-mine-damage-plus.json"
+    },
+    {
+      "name": "Land Mine Radius",
+      "path": "defense/land-mine-radius.json"
+    },
+    {
+      "name": "Lifesteal",
+      "path": "defense/lifesteal.json"
+    },
+    {
+      "name": "Max Recovery",
+      "path": "utility/max-recovery.json"
+    },
+    {
+      "name": "Multishot Chance",
+      "path": "attack/multishot-chance.json"
+    },
+    {
+      "name": "Multishot Targets",
+      "path": "attack/multishot-targets.json"
+    },
+    {
+      "name": "Orb Size",
+      "path": "enhancements/defense/orb-size.json"
+    },
+    {
+      "name": "Orb Speed",
+      "path": "defense/orb-speed.json"
+    },
+    {
+      "name": "Orbs",
+      "path": "defense/orbs.json"
+    },
+    {
+      "name": "Package Chance",
+      "path": "utility/package-chance.json"
+    },
+    {
+      "name": "Range",
+      "path": "attack/range.json"
+    },
+    {
+      "name": "Rapid Fire Chance",
+      "path": "attack/rapid-fire-chance.json"
+    },
+    {
+      "name": "Rapid Fire Duration",
+      "path": "attack/rapid-fire-duration.json"
+    },
+    {
+      "name": "Recovery Amount",
+      "path": "utility/recovery-amount.json"
+    },
+    {
+      "name": "Recovery Package +",
+      "path": "enhancements/utility/recovery-package-plus.json"
+    },
+    {
+      "name": "Rend Armor Chance",
+      "path": "attack/rend-armor-chance.json"
+    },
+    {
+      "name": "Rend Armor Max",
+      "path": "enhancements/attack/rend-armor-max.json"
+    },
+    {
+      "name": "Rend Armor Mult",
+      "path": "attack/rend-armor-mult.json"
+    },
+    {
+      "name": "Shockwave Frequency",
+      "path": "defense/shockwave-frequency.json"
+    },
+    {
+      "name": "Shockwave Size",
+      "path": "defense/shockwave-size.json"
+    },
+    {
+      "name": "Super Crit Chance",
+      "path": "attack/super-crit-chance.json"
+    },
+    {
+      "name": "Super Crit Mult",
+      "path": "attack/super-crit-mult.json"
+    },
+    {
+      "name": "Super Crit Mult +",
+      "path": "enhancements/attack/super-crit-mult-plus.json"
+    },
+    {
+      "name": "Thorns",
+      "path": "defense/thorns.json"
+    },
+    {
+      "name": "Wall Health",
+      "path": "defense/wall-health.json"
+    },
+    {
+      "name": "Wall Health +",
+      "path": "enhancements/defense/wall-health-plus.json"
+    },
+    {
+      "name": "Wall Rebuild",
+      "path": "defense/wall-rebuild.json"
+    }
+  ]
+}

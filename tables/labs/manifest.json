@@ -1,0 +1,873 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "name": "Amplify Bot - Cooldown",
+      "path": "bots/amplify-bot-cooldown.json"
+    },
+    {
+      "name": "Amplify Bot - Duration",
+      "path": "bots/amplify-bot-duration.json"
+    },
+    {
+      "name": "Area of Effect Mastery",
+      "path": "card-mastery/area-of-effect-mastery.json"
+    },
+    {
+      "name": "Armor Effect Bans",
+      "path": "modules/armor-effect-bans.json"
+    },
+    {
+      "name": "Armored Enemies",
+      "path": "battle-condition/armored-enemies.json"
+    },
+    {
+      "name": "Assist Module Bonus - Armor",
+      "path": "modules/assist-module-bonus-armor.json"
+    },
+    {
+      "name": "Assist Module Bonus - Cannon",
+      "path": "modules/assist-module-bonus-cannon.json"
+    },
+    {
+      "name": "Assist Module Bonus - Core",
+      "path": "modules/assist-module-bonus-core.json"
+    },
+    {
+      "name": "Assist Module Bonus - Generator",
+      "path": "modules/assist-module-bonus-generator.json"
+    },
+    {
+      "name": "Assist Module Substats - Armor",
+      "path": "modules/assist-module-substats-armor.json"
+    },
+    {
+      "name": "Assist Module Substats - Cannon",
+      "path": "modules/assist-module-substats-cannon.json"
+    },
+    {
+      "name": "Assist Module Substats - Core",
+      "path": "modules/assist-module-substats-core.json"
+    },
+    {
+      "name": "Assist Module Substats - Generator",
+      "path": "modules/assist-module-substats-generator.json"
+    },
+    {
+      "name": "Attack Speed",
+      "path": "attack/attack-speed.json"
+    },
+    {
+      "name": "Attack Speed Mastery",
+      "path": "card-mastery/attack-speed-mastery.json"
+    },
+    {
+      "name": "Auto Pick Perks",
+      "path": "perks/auto-pick-perks.json"
+    },
+    {
+      "name": "Auto Pick Ranking",
+      "path": "perks/auto-pick-ranking.json"
+    },
+    {
+      "name": "Ban Perks",
+      "path": "perks/ban-perks.json"
+    },
+    {
+      "name": "Basic's Ultimate",
+      "path": "battle-condition/basics-ultimate.json"
+    },
+    {
+      "name": "Battle Condition Reduction",
+      "path": "battle-condition/battle-condition-reduction.json"
+    },
+    {
+      "name": "Berserker Mastery",
+      "path": "card-mastery/berserker-mastery.json"
+    },
+    {
+      "name": "Black Hole Coin Bonus",
+      "path": "ultimate-weapon/black-hole-coin-bonus.json"
+    },
+    {
+      "name": "Black Hole Damage",
+      "path": "ultimate-weapon/black-hole-damage.json"
+    },
+    {
+      "name": "Black Hole Disable Ranged Enemies",
+      "path": "ultimate-weapon/black-hole-disable-ranged-enemies.json"
+    },
+    {
+      "name": "Boss Attack",
+      "path": "enemies/boss-enemy-attack.json"
+    },
+    {
+      "name": "Boss Health",
+      "path": "enemies/boss-health.json"
+    },
+    {
+      "name": "Boss's Ultimate",
+      "path": "battle-condition/bosss-ultimate.json"
+    },
+    {
+      "name": "Bot Bot - Cooldown",
+      "path": "bots/bot-bot-cooldown.json"
+    },
+    {
+      "name": "Bot Bot - Duration",
+      "path": "bots/bot-bot-duration.json"
+    },
+    {
+      "name": "Buy Multiplier",
+      "path": "main/buy-multiplier.json"
+    },
+    {
+      "name": "Cannon Effect Bans",
+      "path": "modules/cannon-effect-bans.json"
+    },
+    {
+      "name": "Card Presets",
+      "path": "main/card-presets.json"
+    },
+    {
+      "name": "Cash / Wave",
+      "path": "utility/cash-wave.json"
+    },
+    {
+      "name": "Cash Bonus",
+      "path": "utility/cash-bonus.json"
+    },
+    {
+      "name": "Cash Mastery",
+      "path": "card-mastery/cash-mastery.json"
+    },
+    {
+      "name": "Chain Lightning Shock",
+      "path": "ultimate-weapon/chain-lightning-shock.json"
+    },
+    {
+      "name": "Chain Thunder",
+      "path": "ultimate-weapon/chain-thunder.json"
+    },
+    {
+      "name": "Chrono Field Damage Reduction",
+      "path": "ultimate-weapon/chrono-field-damage-reduction.json"
+    },
+    {
+      "name": "Chrono Field Duration",
+      "path": "ultimate-weapon/chrono-field-duration.json"
+    },
+    {
+      "name": "Chrono Field Range",
+      "path": "ultimate-weapon/chrono-field-range.json"
+    },
+    {
+      "name": "Chrono Field Reduction %",
+      "path": "ultimate-weapon/chrono-field-reduction.json"
+    },
+    {
+      "name": "Coins / Kill Bonus",
+      "path": "utility/coins-kill-bonus.json"
+    },
+    {
+      "name": "Coins / Wave",
+      "path": "utility/coins-wave.json"
+    },
+    {
+      "name": "Coins Mastery",
+      "path": "card-mastery/coins-mastery.json"
+    },
+    {
+      "name": "Common Drop Chance",
+      "path": "modules/common-drop-chance.json"
+    },
+    {
+      "name": "Common Enemy Attack",
+      "path": "enemies/common-enemy-attack.json"
+    },
+    {
+      "name": "Common Enemy Health",
+      "path": "enemies/common-enemy-health.json"
+    },
+    {
+      "name": "Core Effect Bans",
+      "path": "modules/core-effect-bans.json"
+    },
+    {
+      "name": "Critical Chance Mastery",
+      "path": "card-mastery/critical-chance-mastery.json"
+    },
+    {
+      "name": "Critical Coin Mastery",
+      "path": "card-mastery/critical-coin-mastery.json"
+    },
+    {
+      "name": "Critical Factor",
+      "path": "attack/critical-factor.json"
+    },
+    {
+      "name": "Daily Mission Shards",
+      "path": "modules/daily-mission-shards.json"
+    },
+    {
+      "name": "Damage",
+      "path": "attack/damage.json"
+    },
+    {
+      "name": "Damage / Meter",
+      "path": "attack/damage-per-meter.json"
+    },
+    {
+      "name": "Damage Mastery",
+      "path": "card-mastery/damage-mastery.json"
+    },
+    {
+      "name": "Death Defy Down",
+      "path": "battle-condition/death-defy-down.json"
+    },
+    {
+      "name": "Death Ray Mastery",
+      "path": "card-mastery/death-ray-mastery.json"
+    },
+    {
+      "name": "Death Ray Resistance",
+      "path": "battle-condition/death-ray-resistance.json"
+    },
+    {
+      "name": "Death Wave Armor Stripping",
+      "path": "ultimate-weapon/death-wave-armor-stripping.json"
+    },
+    {
+      "name": "Death Wave Cells Bonus",
+      "path": "ultimate-weapon/death-wave-cells-bonus.json"
+    },
+    {
+      "name": "Death Wave Coin Bonus",
+      "path": "ultimate-weapon/death-wave-coin-bonus.json"
+    },
+    {
+      "name": "Death Wave Damage Amplifier",
+      "path": "ultimate-weapon/death-wave-damage-amplifier.json"
+    },
+    {
+      "name": "Death Wave Health",
+      "path": "ultimate-weapon/death-wave-health.json"
+    },
+    {
+      "name": "Defense %",
+      "path": "defense/defense.json"
+    },
+    {
+      "name": "Defense Absolute",
+      "path": "defense/defense-absolute.json"
+    },
+    {
+      "name": "Demon Mode Mastery",
+      "path": "card-mastery/demon-mode-mastery.json"
+    },
+    {
+      "name": "Dissonant Echo - Attack",
+      "path": "main/dissonant-echo-attack.json"
+    },
+    {
+      "name": "Dissonant Echo - Defense",
+      "path": "main/dissonant-echo-defense.json"
+    },
+    {
+      "name": "Dissonant Echo - Ultimate Weapons",
+      "path": "main/dissonant-echo-ultimate-weapons.json"
+    },
+    {
+      "name": "Dissonant Echo - Utility",
+      "path": "main/dissonant-echo-utility.json"
+    },
+    {
+      "name": "Double Death Ray",
+      "path": "cards/double-death-ray.json"
+    },
+    {
+      "name": "Enemy Attack Level Skip",
+      "path": "utility/enemy-attack-level-skip.json"
+    },
+    {
+      "name": "Enemy Attack Speed",
+      "path": "battle-condition/enemy-attack-speed.json"
+    },
+    {
+      "name": "Enemy Balance Mastery",
+      "path": "card-mastery/enemy-balance-mastery.json"
+    },
+    {
+      "name": "Enemy Health Level Skip",
+      "path": "utility/enemy-health-level-skip.json"
+    },
+    {
+      "name": "Enemy Level Skip Reduction",
+      "path": "battle-condition/enemy-level-skip-reduction.json"
+    },
+    {
+      "name": "Enemy Speed",
+      "path": "battle-condition/enemy-speed.json"
+    },
+    {
+      "name": "Energy Net Mastery",
+      "path": "card-mastery/energy-net-mastery.json"
+    },
+    {
+      "name": "Energy Shield Extra Hit",
+      "path": "cards/energy-shield-extra-hit.json"
+    },
+    {
+      "name": "Energy Shield Mastery",
+      "path": "card-mastery/energy-shield-mastery.json"
+    },
+    {
+      "name": "Energy Shields Down",
+      "path": "battle-condition/energy-shields-down.json"
+    },
+    {
+      "name": "Enhancement Attack - Coin Discount",
+      "path": "main/enhancement-attack-coin-discount.json"
+    },
+    {
+      "name": "Enhancement Defense - Coin Discount",
+      "path": "main/enhancement-defense-coin-discount.json"
+    },
+    {
+      "name": "Enhancement Utility - Coin Discount",
+      "path": "main/enhancement-utility-coin-discount.json"
+    },
+    {
+      "name": "Extra Black Hole",
+      "path": "ultimate-weapon/extra-black-hole.json"
+    },
+    {
+      "name": "Extra Defense Mastery",
+      "path": "card-mastery/extra-defense-mastery.json"
+    },
+    {
+      "name": "Extra Extra Orbs",
+      "path": "cards/extra-extra-orbs.json"
+    },
+    {
+      "name": "Extra Orb Adjuster",
+      "path": "cards/extra-orb-adjuster.json"
+    },
+    {
+      "name": "Extra Orb Mastery",
+      "path": "card-mastery/extra-orb-mastery.json"
+    },
+    {
+      "name": "Fast Enemy Attack",
+      "path": "enemies/fast-enemy-attack.json"
+    },
+    {
+      "name": "Fast Enemy Health",
+      "path": "enemies/fast-enemy-health.json"
+    },
+    {
+      "name": "Fast Enemy Speed",
+      "path": "enemies/fast-enemy-speed.json"
+    },
+    {
+      "name": "Fast's Ultimate",
+      "path": "battle-condition/fasts-ultimate.json"
+    },
+    {
+      "name": "First Perk Choice",
+      "path": "perks/first-perk-choice.json"
+    },
+    {
+      "name": "Flame Bot - Burn Stack",
+      "path": "bots/flame-bot-burn-stack.json"
+    },
+    {
+      "name": "Flame Bot - Cooldown",
+      "path": "bots/flame-bot-cooldown.json"
+    },
+    {
+      "name": "Fortress Mastery",
+      "path": "card-mastery/fortress-mastery.json"
+    },
+    {
+      "name": "Free Upgrades Mastery",
+      "path": "card-mastery/free-upgrades-mastery.json"
+    },
+    {
+      "name": "Game Speed",
+      "path": "main/game-speed.json"
+    },
+    {
+      "name": "Garlic Thorns",
+      "path": "defense/garlic-thorns.json"
+    },
+    {
+      "name": "Generator Effect Bans",
+      "path": "modules/generator-effect-bans.json"
+    },
+    {
+      "name": "Golden Bot - Cooldown",
+      "path": "bots/golden-bot-cooldown.json"
+    },
+    {
+      "name": "Golden Bot - Duration",
+      "path": "bots/golden-bot-duration.json"
+    },
+    {
+      "name": "Golden Tower Bonus",
+      "path": "ultimate-weapon/golden-tower-bonus.json"
+    },
+    {
+      "name": "Golden Tower Duration",
+      "path": "ultimate-weapon/golden-tower-duration.json"
+    },
+    {
+      "name": "Health",
+      "path": "defense/health.json"
+    },
+    {
+      "name": "Health Mastery",
+      "path": "card-mastery/health-mastery.json"
+    },
+    {
+      "name": "Health Regen",
+      "path": "defense/health-regen.json"
+    },
+    {
+      "name": "Health Regen Mastery",
+      "path": "card-mastery/health-regen-mastery.json"
+    },
+    {
+      "name": "Improve Trade-off Perks",
+      "path": "perks/improve-trade-off-perks.json"
+    },
+    {
+      "name": "Inner Land Mine - Chrono Jump",
+      "path": "ultimate-weapon/inner-land-mine-chrono-jump.json"
+    },
+    {
+      "name": "Inner Mine Blast Radius",
+      "path": "ultimate-weapon/inner-mine-blast-radius.json"
+    },
+    {
+      "name": "Inner Mine Rotation Speed",
+      "path": "ultimate-weapon/inner-mine-rotation-speed.json"
+    },
+    {
+      "name": "Inner Mine Stun",
+      "path": "ultimate-weapon/inner-mine-stun.json"
+    },
+    {
+      "name": "Interest",
+      "path": "utility/interest.json"
+    },
+    {
+      "name": "Intro Sprint Mastery",
+      "path": "card-mastery/intro-sprint-mastery.json"
+    },
+    {
+      "name": "Knockback Resistance",
+      "path": "battle-condition/knockback-resistance.json"
+    },
+    {
+      "name": "Labs Coin Discount",
+      "path": "main/labs-coin-discount.json"
+    },
+    {
+      "name": "Labs Speed",
+      "path": "main/labs-speed.json"
+    },
+    {
+      "name": "Land Mine Damage",
+      "path": "defense/land-mine-damage.json"
+    },
+    {
+      "name": "Land Mine Decay",
+      "path": "defense/land-mine-decay.json"
+    },
+    {
+      "name": "Land Mine Stun Mastery",
+      "path": "card-mastery/land-mine-stun-mastery.json"
+    },
+    {
+      "name": "Light Speed Shots",
+      "path": "attack/light-speed-shots.json"
+    },
+    {
+      "name": "Lightning Amplifier - Scatter",
+      "path": "ultimate-weapon/lightning-amplifier-scatter.json"
+    },
+    {
+      "name": "Max Interest",
+      "path": "utility/max-interest.json"
+    },
+    {
+      "name": "Max Rend Armor Multiplier",
+      "path": "attack/max-rend-armor-multiplier.json"
+    },
+    {
+      "name": "Missile Amplifier",
+      "path": "ultimate-weapon/missile-amplifier.json"
+    },
+    {
+      "name": "Missile Barrage",
+      "path": "ultimate-weapon/missile-barrage.json"
+    },
+    {
+      "name": "Missile Barrage Quantity",
+      "path": "ultimate-weapon/missile-barrage-quantity.json"
+    },
+    {
+      "name": "Missile Despawn Time",
+      "path": "ultimate-weapon/missile-despawn-time.json"
+    },
+    {
+      "name": "Missile Radius",
+      "path": "ultimate-weapon/missile-radius.json"
+    },
+    {
+      "name": "Missiles Explosion",
+      "path": "ultimate-weapon/missiles-explosion.json"
+    },
+    {
+      "name": "Module Coin Cost",
+      "path": "modules/module-coin-cost.json"
+    },
+    {
+      "name": "Module Shards Cost",
+      "path": "modules/module-shards-cost.json"
+    },
+    {
+      "name": "More Enemies",
+      "path": "battle-condition/more-enemies.json"
+    },
+    {
+      "name": "More Round Stats",
+      "path": "main/more-round-stats.json"
+    },
+    {
+      "name": "Nuke Mastery",
+      "path": "card-mastery/nuke-mastery.json"
+    },
+    {
+      "name": "Orb Boss Hit",
+      "path": "defense/orb-boss-hit.json"
+    },
+    {
+      "name": "Orb Resistance",
+      "path": "battle-condition/orb-resistance.json"
+    },
+    {
+      "name": "Orbs Speed",
+      "path": "defense/orbs-speed.json"
+    },
+    {
+      "name": "Package After Boss",
+      "path": "utility/package-after-boss.json"
+    },
+    {
+      "name": "Perk Option Quantity",
+      "path": "perks/perk-option-quantity.json"
+    },
+    {
+      "name": "Plasma Cannon Mastery",
+      "path": "card-mastery/plasma-cannon-mastery.json"
+    },
+    {
+      "name": "Plasma Cannon Resistance",
+      "path": "battle-condition/plasma-cannon-resistance.json"
+    },
+    {
+      "name": "Protector Damage Reduction",
+      "path": "enemies/protector-damage-reduction.json"
+    },
+    {
+      "name": "Protector Health",
+      "path": "enemies/protector-health.json"
+    },
+    {
+      "name": "Protector Radius",
+      "path": "enemies/protector-radius.json"
+    },
+    {
+      "name": "Protector's Ultimate",
+      "path": "battle-condition/protectors-ultimate.json"
+    },
+    {
+      "name": "Range",
+      "path": "attack/range.json"
+    },
+    {
+      "name": "Range Mastery",
+      "path": "card-mastery/range-mastery.json"
+    },
+    {
+      "name": "Ranged Enemy Attack",
+      "path": "enemies/ranged-enemy-attack.json"
+    },
+    {
+      "name": "Ranged Enemy Health",
+      "path": "enemies/ranged-enemy-health.json"
+    },
+    {
+      "name": "Ranged Enemy Range",
+      "path": "enemies/ranged-enemy-range.json"
+    },
+    {
+      "name": "Ranged Ultimate",
+      "path": "battle-condition/ranged-ultimate.json"
+    },
+    {
+      "name": "Rare Drop Chance",
+      "path": "modules/rare-drop-chance.json"
+    },
+    {
+      "name": "Ray Enemy Attack",
+      "path": "enemies/ray-enemy-attack.json"
+    },
+    {
+      "name": "Ray Enemy Health",
+      "path": "enemies/ray-enemy-health.json"
+    },
+    {
+      "name": "Recharge Demon Mode",
+      "path": "cards/recharge-demon-mode.json"
+    },
+    {
+      "name": "Recharge Missile Barrage",
+      "path": "ultimate-weapon/recharge-missile-barrage.json"
+    },
+    {
+      "name": "Recharge Nuke",
+      "path": "cards/recharge-nuke.json"
+    },
+    {
+      "name": "Recharge Second Wind",
+      "path": "cards/recharge-second-wind.json"
+    },
+    {
+      "name": "Recovery Package Amount",
+      "path": "utility/recovery-package-amount.json"
+    },
+    {
+      "name": "Recovery Package Chance",
+      "path": "utility/recovery-package-chance.json"
+    },
+    {
+      "name": "Recovery Package Chance Mastery",
+      "path": "card-mastery/recovery-package-chance-mastery.json"
+    },
+    {
+      "name": "Recovery Package Max",
+      "path": "utility/recovery-package-max.json"
+    },
+    {
+      "name": "Reroll Daily Mission",
+      "path": "main/reroll-daily-mission.json"
+    },
+    {
+      "name": "Reroll Shards",
+      "path": "modules/reroll-shards.json"
+    },
+    {
+      "name": "Scatter Enemy Attack",
+      "path": "enemies/scatter-enemy-attack.json"
+    },
+    {
+      "name": "Scatter Enemy Health",
+      "path": "enemies/scatter-enemy-health.json"
+    },
+    {
+      "name": "Second Wind Blast",
+      "path": "cards/second-wind-blast.json"
+    },
+    {
+      "name": "Second Wind Mastery",
+      "path": "card-mastery/second-wind-mastery.json"
+    },
+    {
+      "name": "Shatter Shards",
+      "path": "modules/shatter-shards.json"
+    },
+    {
+      "name": "Shock Chance",
+      "path": "ultimate-weapon/shock-chance.json"
+    },
+    {
+      "name": "Shock Multiplier",
+      "path": "ultimate-weapon/shock-multiplier.json"
+    },
+    {
+      "name": "Shockwave Size",
+      "path": "defense/shockwave-size.json"
+    },
+    {
+      "name": "Slow Aura Mastery",
+      "path": "card-mastery/slow-aura-mastery.json"
+    },
+    {
+      "name": "Spotlight Coin Bonus",
+      "path": "ultimate-weapon/spotlight-coin-bonus.json"
+    },
+    {
+      "name": "Spotlight Missiles",
+      "path": "ultimate-weapon/spotlight-missiles.json"
+    },
+    {
+      "name": "Standard Perks Bonus",
+      "path": "perks/standard-perks-bonus.json"
+    },
+    {
+      "name": "Starting Cash",
+      "path": "main/starting-cash.json"
+    },
+    {
+      "name": "Super Crit Chance",
+      "path": "attack/super-crit-chance.json"
+    },
+    {
+      "name": "Super Crit Mult",
+      "path": "attack/super-crit-mult.json"
+    },
+    {
+      "name": "Super Tower Bonus",
+      "path": "cards/super-tower-bonus.json"
+    },
+    {
+      "name": "Super Tower Mastery",
+      "path": "card-mastery/super-tower-mastery.json"
+    },
+    {
+      "name": "Swamp Radius",
+      "path": "ultimate-weapon/swamp-radius.json"
+    },
+    {
+      "name": "Swamp Rend - Additional Enemies",
+      "path": "ultimate-weapon/swamp-rend-additional-enemies.json"
+    },
+    {
+      "name": "Swamp Rend - Basic Enemies",
+      "path": "ultimate-weapon/swamp-rend-basic-enemies.json"
+    },
+    {
+      "name": "Swamp Stun",
+      "path": "ultimate-weapon/swamp-stun.json"
+    },
+    {
+      "name": "Swamp Stun Chance",
+      "path": "ultimate-weapon/swamp-stun-chance.json"
+    },
+    {
+      "name": "Swamp Stun Time",
+      "path": "ultimate-weapon/swamp-stun-time.json"
+    },
+    {
+      "name": "Tank Enemy Attack",
+      "path": "enemies/tank-enemy-attack.json"
+    },
+    {
+      "name": "Tank Enemy Health",
+      "path": "enemies/tank-enemy-health.json"
+    },
+    {
+      "name": "Tank's Ultimate",
+      "path": "battle-condition/tanks-ultimate.json"
+    },
+    {
+      "name": "Target Priority",
+      "path": "main/target-priority.json"
+    },
+    {
+      "name": "Thorns Resistance",
+      "path": "battle-condition/thorns-resistance.json"
+    },
+    {
+      "name": "Thunder Bot - Cooldown",
+      "path": "bots/thunder-bot-cooldown.json"
+    },
+    {
+      "name": "Thunder Bot - Linger Time",
+      "path": "bots/thunder-bot-linger-time.json"
+    },
+    {
+      "name": "Ultimate Crit Mastery",
+      "path": "card-mastery/ultimate-crit-mastery.json"
+    },
+    {
+      "name": "Ultimate Weapon Durations",
+      "path": "battle-condition/ultimate-weapon-durations.json"
+    },
+    {
+      "name": "Unlock Perks",
+      "path": "perks/unlock-perks.json"
+    },
+    {
+      "name": "Unmerge Module",
+      "path": "modules/unmerge-module.json"
+    },
+    {
+      "name": "Vampire Enemy Attack",
+      "path": "enemies/vampire-enemy-attack.json"
+    },
+    {
+      "name": "Vampire Enemy Health",
+      "path": "enemies/vampire-enemy-health.json"
+    },
+    {
+      "name": "Wall Fortification",
+      "path": "defense/wall-fortification.json"
+    },
+    {
+      "name": "Wall Health",
+      "path": "defense/wall-health.json"
+    },
+    {
+      "name": "Wall Invincibility",
+      "path": "defense/wall-invincibility.json"
+    },
+    {
+      "name": "Wall Rebuild",
+      "path": "defense/wall-rebuild.json"
+    },
+    {
+      "name": "Wall Regen",
+      "path": "defense/wall-regen.json"
+    },
+    {
+      "name": "Wall Thorns",
+      "path": "defense/wall-thorns.json"
+    },
+    {
+      "name": "Wave Accelerator Mastery",
+      "path": "card-mastery/wave-accelerator-mastery.json"
+    },
+    {
+      "name": "Wave Skip Mastery",
+      "path": "card-mastery/wave-skip-mastery.json"
+    },
+    {
+      "name": "Waves Required",
+      "path": "perks/waves-required.json"
+    },
+    {
+      "name": "Workshop Attack Discount",
+      "path": "main/workshop-attack-discount.json"
+    },
+    {
+      "name": "Workshop Defense Discount",
+      "path": "main/workshop-defense-discount.json"
+    },
+    {
+      "name": "Workshop Enhancements",
+      "path": "main/workshop-enhancements.json"
+    },
+    {
+      "name": "Workshop Respec",
+      "path": "main/workshop-respec.json"
+    },
+    {
+      "name": "Workshop Utility Discount",
+      "path": "main/workshop-utility-discount.json"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "name": "Ally",
+      "path": "chips/ally.json"
+    },
+    {
+      "name": "Attack",
+      "path": "chips/attack.json"
+    },
+    {
+      "name": "Bounty",
+      "path": "chips/bounty.json"
+    },
+    {
+      "name": "Fetch",
+      "path": "chips/fetch.json"
+    },
+    {
+      "name": "Guardian chip slot unlock costs",
+      "path": "slot-unlock-costs.json"
+    },
+    {
+      "name": "Scout",
+      "path": "chips/scout.json"
+    },
+    {
+      "name": "Summon",
+      "path": "chips/summon.json"
+    }
+  ]
+}
